@@ -160,7 +160,7 @@
 
       $pic
         .css("background-image", "url(" + $img.attr("src") + ")")
-        .css("background-size", "cover")
+        .css("background-size", "center")
         .css("background-position", "center");
 
       $img.css("visibility", "hidden");
