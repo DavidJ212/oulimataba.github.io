@@ -1527,6 +1527,9 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 1.5em 0;
+		display: flex;
+    flex-direction: column;
+    align-items: center;
 	}
 
 		header > p {
@@ -2110,7 +2113,7 @@ input, select, textarea {
 					}
 
 						#main > .panel.intro .pic {
-							height: 25em;
+							height: 50em;
 							width: 100%;
 						}
 
@@ -2124,7 +2127,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					#main > .panel.intro .pic {
-						height: 20em;
+						height: 30em;
 					}
 
 					#main > .panel.intro header {
